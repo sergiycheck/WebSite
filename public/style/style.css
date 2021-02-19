@@ -1,3 +1,17 @@
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-content{
+    flex: 1 0 auto;
+}
+.footer-content{
+    flex-shrink: 0;
+}
+
 .image
 {
     background-image:url("https://cdna.artstation.com/p/assets/images/images/008/258/516/large/beinaido-pichaido-mercedes-benz.jpg?1511541457");  
@@ -61,17 +75,17 @@ li a
 
 .instagram
 {
-    background:url("https://images.vexels.com/media/users/3/137198/isolated/lists/07f0d7b69ef071571e4ada2f4d6a053a-instagram-icon-colorful.png");
+    background:url("https://www.digiseller.ru/preview/401339/p1_3016201_4535c803.gif");
 
 }
 .facebook
 {
-    background:url("http://kentville.ca/wp-content/uploads/2017/10/social-facebook-box-blue-icon.png");
+    background:url("https://cliply.co/wp-content/uploads/2019/12/371903520_SOCIAL_ICONS_TRANSPARENT_400px.gif");
 
 }
 .youtube
 {
-    background:url("https://simpla-addons.org/files/images/youtube.500x500.png");
+    background:url("https://img.tsn.ua/cached/1533903732/tsn-10b074b73c19092c21afb42e6fe3f8e2/thumbs/1340x530/16/df/4b61e7ea83d6443fc4d099ad1a3adf16.gif");
 
 }
 .socialMediaImageInstruction>div
