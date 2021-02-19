@@ -1,0 +1,24 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "sample static html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiycheck/WebSite.git"
+  },
+  "author": "sergiycheck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergiycheck/WebSite/issues"
+  },
+  "homepage": "https://github.com/sergiycheck/WebSite#readme",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "serve-static": "^1.14.1"
+  }
+}

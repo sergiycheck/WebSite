@@ -1,0 +1,193 @@
+.image
+{
+    background-image:url("https://cdna.artstation.com/p/assets/images/images/008/258/516/large/beinaido-pichaido-mercedes-benz.jpg?1511541457");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height:600px;
+}
+.image-1
+{
+    background-image:url("https://pbs.twimg.com/media/Day6MIFXcAAOl5R.jpg");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height:600px;
+}
+
+.black-background
+{
+    background-color:black;
+}
+.logo
+{
+    background-image:url("https://www.mercedes-benz.co.uk/passengercars/_jcr_content/logo.noscale.cloudsvg.imageLogo.20180312094632.svg");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    top:13px;
+    position:relative;
+
+}
+.navbar-transparent-bg
+{
+    list-style-type:none;
+    margin:0;
+    padding:0px;
+    background-color:rgba(0,0,0,0.7);
+    overflow:hidden;
+    padding:10px;
+    
+}
+.container>li
+{
+    float:left;
+    
+}
+li a
+{
+    display:block;
+    text-decoration: none;
+    padding:16px 16px;
+    color:white;
+    text-align:center;
+    
+}
+
+.topMarg
+{
+    margin-top:10px;
+}
+
+.instagram
+{
+    background:url("https://images.vexels.com/media/users/3/137198/isolated/lists/07f0d7b69ef071571e4ada2f4d6a053a-instagram-icon-colorful.png");
+
+}
+.facebook
+{
+    background:url("http://kentville.ca/wp-content/uploads/2017/10/social-facebook-box-blue-icon.png");
+
+}
+.youtube
+{
+    background:url("https://simpla-addons.org/files/images/youtube.500x500.png");
+
+}
+.socialMediaImageInstruction>div
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width:90px;
+    height:90px; 
+}
+.historyImgGot
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;   
+    background:url("https://www.mercedes-benz.com/en/mercedes-benz/classic/history/corporate-history/_jcr_content/root/slider_4/sliderchilditems/slideritem_0/image/MQ6-0-image-20190114140623/classic_historie_geschichte_1884_gottliebdaimler_3400x1440.jpeg");
+}
+.container>li.last
+{
+    float:right;
+}
+div.black-background.jumbotron-fluid>div.container-fluid
+{
+    padding:0;
+}
+.content
+{
+    padding-top:70px;
+    padding-bottom:100px;
+    
+    
+}
+.txt-center
+{
+    text-align:center;
+}
+.w-100
+{
+    width:100%;
+}
+.btn-self
+{
+    margin-top:15px;
+    margin-bottom:5px;
+}
+.sign-in-form
+{
+    background:rgba(0, 0, 0, 0.37);
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:20px;
+    padding-bottom:20px;
+    box-shadow: 4px 2px 21px 2px rgba(0,0,0,0.43);
+    border-radius:2px;
+    color:white;
+}
+.sign-in-container-background
+{
+    background:url("https://www.mercedes-benz.com/wp-content/uploads/sites/3/2017/11/01-mercedes-benz-design-a-class-w-177-interior-3400-1440.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    margin:0 auto;
+    
+}
+.form-control
+{
+    border-radius:2px;
+}
+.btn-sign-in
+{
+    background-image: linear-gradient(to right, #0092f3 0%, #2373ff 51%, #0011ff 100%); 
+    color:white;
+    transition-duration:0.5s;
+    border-radius:10px;
+    width:50%;
+    transition: 2s;
+
+}
+.btn-sign-in:hover
+{
+    transform:scale(1.05);
+    background:rgb(206, 116, 0);
+    
+}
+.navbar-text-color
+{
+    color:white!important;
+}
+.flex-container
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+@media(max-width:992px)
+{
+    .news-content
+    {
+        background:rgb(219, 219, 219);
+    }
+}
+@media(max-width:384px)
+{
+    .flex-container
+    {
+        flex-direction:column;
+    }
+}
+.flex-btn
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.btn-slider button
+{
+    border-radius: 50%;
+}
